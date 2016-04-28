@@ -7,14 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4160F7671C7B5D69006B9052 /* CustomScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4160F7661C7B5D69006B9052 /* CustomScrollViewController.swift */; };
+		4160F7691C7B6324006B9052 /* PagedScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4160F7681C7B6324006B9052 /* PagedScrollViewController.swift */; };
+		4160F76B1C7B71B5006B9052 /* PeekPagedScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4160F76A1C7B71B5006B9052 /* PeekPagedScrollViewController.swift */; };
+		4160F76D1C7BA804006B9052 /* ScrollViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4160F76C1C7BA804006B9052 /* ScrollViewContainer.swift */; };
 		41ECA6931C7A10FC00D0F67A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ECA6921C7A10FC00D0F67A /* AppDelegate.swift */; };
 		41ECA6951C7A10FC00D0F67A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ECA6941C7A10FC00D0F67A /* ViewController.swift */; };
 		41ECA6981C7A10FC00D0F67A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41ECA6961C7A10FC00D0F67A /* Main.storyboard */; };
 		41ECA69A1C7A10FC00D0F67A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41ECA6991C7A10FC00D0F67A /* Assets.xcassets */; };
 		41ECA69D1C7A10FC00D0F67A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41ECA69B1C7A10FC00D0F67A /* LaunchScreen.storyboard */; };
+		41ECA6AA1C7A159700D0F67A /* photo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 41ECA6A41C7A159700D0F67A /* photo1.png */; };
+		41ECA6AB1C7A159700D0F67A /* photo2.png in Resources */ = {isa = PBXBuildFile; fileRef = 41ECA6A51C7A159700D0F67A /* photo2.png */; };
+		41ECA6AC1C7A159700D0F67A /* photo3.png in Resources */ = {isa = PBXBuildFile; fileRef = 41ECA6A61C7A159700D0F67A /* photo3.png */; };
+		41ECA6AD1C7A159700D0F67A /* photo4.png in Resources */ = {isa = PBXBuildFile; fileRef = 41ECA6A71C7A159700D0F67A /* photo4.png */; };
+		41ECA6AE1C7A159700D0F67A /* photo5.png in Resources */ = {isa = PBXBuildFile; fileRef = 41ECA6A81C7A159700D0F67A /* photo5.png */; };
+		41ECA6AF1C7A159700D0F67A /* slow.png in Resources */ = {isa = PBXBuildFile; fileRef = 41ECA6A91C7A159700D0F67A /* slow.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4160F7661C7B5D69006B9052 /* CustomScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomScrollViewController.swift; sourceTree = "<group>"; };
+		4160F7681C7B6324006B9052 /* PagedScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagedScrollViewController.swift; sourceTree = "<group>"; };
+		4160F76A1C7B71B5006B9052 /* PeekPagedScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeekPagedScrollViewController.swift; sourceTree = "<group>"; };
+		4160F76C1C7BA804006B9052 /* ScrollViewContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewContainer.swift; sourceTree = "<group>"; };
 		41ECA68F1C7A10FC00D0F67A /* ScrollViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41ECA6921C7A10FC00D0F67A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41ECA6941C7A10FC00D0F67A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +36,12 @@
 		41ECA6991C7A10FC00D0F67A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41ECA69C1C7A10FC00D0F67A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41ECA69E1C7A10FC00D0F67A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41ECA6A41C7A159700D0F67A /* photo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo1.png; sourceTree = "<group>"; };
+		41ECA6A51C7A159700D0F67A /* photo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo2.png; sourceTree = "<group>"; };
+		41ECA6A61C7A159700D0F67A /* photo3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo3.png; sourceTree = "<group>"; };
+		41ECA6A71C7A159700D0F67A /* photo4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo4.png; sourceTree = "<group>"; };
+		41ECA6A81C7A159700D0F67A /* photo5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo5.png; sourceTree = "<group>"; };
+		41ECA6A91C7A159700D0F67A /* slow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slow.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +74,22 @@
 		41ECA6911C7A10FC00D0F67A /* ScrollViews */ = {
 			isa = PBXGroup;
 			children = (
+				41ECA6A41C7A159700D0F67A /* photo1.png */,
+				41ECA6A51C7A159700D0F67A /* photo2.png */,
+				41ECA6A61C7A159700D0F67A /* photo3.png */,
+				41ECA6A71C7A159700D0F67A /* photo4.png */,
+				41ECA6A81C7A159700D0F67A /* photo5.png */,
+				41ECA6A91C7A159700D0F67A /* slow.png */,
 				41ECA6921C7A10FC00D0F67A /* AppDelegate.swift */,
 				41ECA6941C7A10FC00D0F67A /* ViewController.swift */,
 				41ECA6961C7A10FC00D0F67A /* Main.storyboard */,
 				41ECA6991C7A10FC00D0F67A /* Assets.xcassets */,
 				41ECA69B1C7A10FC00D0F67A /* LaunchScreen.storyboard */,
 				41ECA69E1C7A10FC00D0F67A /* Info.plist */,
+				4160F7661C7B5D69006B9052 /* CustomScrollViewController.swift */,
+				4160F7681C7B6324006B9052 /* PagedScrollViewController.swift */,
+				4160F76A1C7B71B5006B9052 /* PeekPagedScrollViewController.swift */,
+				4160F76C1C7BA804006B9052 /* ScrollViewContainer.swift */,
 			);
 			path = ScrollViews;
 			sourceTree = "<group>";
@@ -122,8 +152,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41ECA6AD1C7A159700D0F67A /* photo4.png in Resources */,
+				41ECA6AB1C7A159700D0F67A /* photo2.png in Resources */,
+				41ECA6AF1C7A159700D0F67A /* slow.png in Resources */,
+				41ECA6AA1C7A159700D0F67A /* photo1.png in Resources */,
 				41ECA69D1C7A10FC00D0F67A /* LaunchScreen.storyboard in Resources */,
+				41ECA6AE1C7A159700D0F67A /* photo5.png in Resources */,
 				41ECA69A1C7A10FC00D0F67A /* Assets.xcassets in Resources */,
+				41ECA6AC1C7A159700D0F67A /* photo3.png in Resources */,
 				41ECA6981C7A10FC00D0F67A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,7 +172,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				41ECA6951C7A10FC00D0F67A /* ViewController.swift in Sources */,
+				4160F7691C7B6324006B9052 /* PagedScrollViewController.swift in Sources */,
 				41ECA6931C7A10FC00D0F67A /* AppDelegate.swift in Sources */,
+				4160F76B1C7B71B5006B9052 /* PeekPagedScrollViewController.swift in Sources */,
+				4160F7671C7B5D69006B9052 /* CustomScrollViewController.swift in Sources */,
+				4160F76D1C7BA804006B9052 /* ScrollViewContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +324,7 @@
 				41ECA6A31C7A10FC00D0F67A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
